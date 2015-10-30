@@ -3,7 +3,7 @@ title: Ryan Tanay Developer Portfolio
 email: rtanay@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Ryan Tanay - Full Stack Developer - Portfolio Site
-baseurl: "portfolio" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ryantanay.com" # the base hostname & protocol for your site
 twitter_username: ryantanay
 github_username:  NewEvolution
