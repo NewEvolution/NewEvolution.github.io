@@ -1,12 +1,12 @@
 # Site settings
 title: Ryan Tanay
 email: rtanay@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Ryan Tanay - Full Stack Developer Portfolio
+description: Full Stack Developer Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ryantanay.com" # the base hostname & protocol for your site
-twitter_username: ryantanay
+twitter_username: RyanTanay
 github_username:  NewEvolution
 
 # Build settings
 markdown: kramdown
+permalink: /posts/:title
