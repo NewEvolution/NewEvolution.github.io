@@ -1,3 +1,7 @@
+.home {
+  margin-top: 35px;
+}
+
 .profile {
   img {
     max-width: 300px;
@@ -12,6 +16,7 @@
   @include media-query($on_palm) {
     float: none;
     text-align: center;
+    margin-right: 0;
   }
 }
 
@@ -21,20 +26,22 @@
     list-style: none;
     text-align: center;
     li {
-      max-width: 9.5%;
+      max-width: 10%;
       min-width: 50px;
       margin-top: 5px;
-      max-height: 9.5%;
+      max-height: 10%;
       min-height: 50px;
       display: inline-block;
     }
   }
 }
 
-a,
-.username {
+a {
   color: #070;
   &:hover {
-    color: #040;
+    color: #070;
+  }
+  &:visited {
+    color: #060;
   }
 }
