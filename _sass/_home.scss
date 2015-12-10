@@ -20,6 +20,26 @@
   }
 }
 
+.bio {
+  line-height: 2em;
+}
+
+.projects {
+  clear: both;
+  text-align: center;
+  .container {
+    overflow: scroll;
+    white-space: nowrap;
+    .project {
+      margin: 10px 40px;
+      display: inline-block;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
 .technologies {
   clear: both;
   ul {
@@ -37,11 +57,11 @@
 }
 
 a {
-  color: #070;
+  color: #0A0;
   &:hover {
-    color: #070;
+    color: #0A0;
   }
   &:visited {
-    color: #060;
+    color: #070;
   }
 }
