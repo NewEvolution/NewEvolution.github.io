@@ -2,15 +2,25 @@
  * Site header
  */
 .site-header {
-    background-color: $background-color;
-    background-image: url(../assets/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: 100%;
     position: fixed;
     min-height: 56px;
     width: 100%;
+    &::after{
+        background-color: $background-color;
+        background-image: url(../assets/background.jpg);
+        background-position: center top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        opacity: 0.9;
+        z-index: -1;  
+        content: "";
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
 }
 
 .site-title {

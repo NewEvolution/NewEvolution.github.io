@@ -24,6 +24,10 @@
   line-height: 2em;
 }
 
+h1 {
+  margin-top: 0.7em;
+}
+
 .projects {
   clear: both;
   text-align: center;
@@ -32,8 +36,11 @@
     white-space: nowrap;
     .project {
       margin: 10px 40px;
+      white-space: normal;
+      vertical-align: top;
       display: inline-block;
       p {
+        max-width: 700px;
         margin-top: 10px;
       }
     }
@@ -42,9 +49,9 @@
 
 .technologies {
   clear: both;
+  text-align: center;
   ul {
     list-style: none;
-    text-align: center;
     li {
       max-width: 10%;
       max-height: 10%;
