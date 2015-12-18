@@ -11,11 +11,14 @@ found an exploit in [GRUB2][grub-manual] where pressing backspace 28 times at th
 causes an integer underflow that runs GRUB2's rescue shell.
 
 For all the gory details, you can check out [the full writeup][bug-breakdown].  I'm always amazed by the amount of damage
-that can be caused/fixed with something as simple adding
-{% highlight bash %}
-&& cur_len
+that can be caused/fixed with something as simple as changing
+{% highlight js %}
+if(key == '\b')
 {% endhighlight %}
-checks to two if statements.
+to
+{% highlight js %}
+if(key == '\b' && cur_len)
+{% endhighlight %}
 
 [sc-article]: http://www.scmagazine.com/how-to-bypass-lynixs-grub2-bootloader-with-one-key/article/460521/
 [upv-site]: http://cybersecurity.upv.es/
