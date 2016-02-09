@@ -9,5 +9,5 @@ github_username:  NewEvolution
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /posts/:title
