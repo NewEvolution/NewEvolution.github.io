@@ -31,8 +31,8 @@ a virtual foothold in this emerging technology.
 On the other hand, at least it still exists.  As [Jason
 Scott][js] is quoted in the article,
 > “The great paradox about these digital communities is that they’re
-easily kept around forever, and they are even more easily deleted
-utterly”
+> easily kept around forever, and they are even more easily deleted
+> utterly”
 
 So many bits of my early Internet days, from the HotBot search engine I
 swore by to the very first written-in-notepad Geocities web page I made
