@@ -2,7 +2,7 @@
 layout: post
 title:  "28 Backspaces"
 date:   2015-12-18 9:15:27
-categories:
+tags:
 - linux
 - security
 ---

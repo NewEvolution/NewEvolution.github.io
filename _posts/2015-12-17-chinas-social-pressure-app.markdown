@@ -2,7 +2,7 @@
 layout: post
 title:  "China's Social Pressure App"
 date:   2015-12-17 8:58:47
-categories:
+tags:
 - social media
 ---
 Via [the BBC][bbc-article], China is rolling out a social media/credit monitoring/citizen compliance type app
